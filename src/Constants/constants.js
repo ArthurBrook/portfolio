@@ -11,6 +11,7 @@ import {
   faGithub,
   faYoutube,
   faTiktok,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -83,6 +84,7 @@ const icons = {
   faGithub,
   faYoutube,
   faTiktok,
+  faInstagram,
 };
 
 const introduction = {

@@ -10,16 +10,22 @@ const SocialLinks = () => {
           icon={icons.faGithub}
         />
       </a>
-      <a href="https://www.youtube.com/@arthur_brook" target="_blank">
+      <a href="https://www.instagram.com/arthur_brook" target="_blank">
         <FontAwesomeIcon
           className="text-3xl text-grayscale-50 hover:text-primary-400 hover:scale-[1.1] transition-all duration-75"
-          icon={icons.faYoutube}
+          icon={icons.faInstagram}
         />
       </a>
       <a href="https://www.tiktok.com/arthur_brook" target="_blank">
         <FontAwesomeIcon
           className="text-3xl text-grayscale-50 hover:text-primary-400 hover:scale-[1.1] transition-all duration-75"
           icon={icons.faTiktok}
+        />
+      </a>
+      <a href="https://www.youtube.com/@arthur_brook" target="_blank">
+        <FontAwesomeIcon
+          className="text-3xl text-grayscale-50 hover:text-primary-400 hover:scale-[1.1] transition-all duration-75"
+          icon={icons.faYoutube}
         />
       </a>
     </div>
