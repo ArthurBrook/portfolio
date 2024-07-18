@@ -265,13 +265,6 @@ const skills = [
       "I have experience using GSAP to create complex animations and effects in web applications. With GSAP, I can create smooth, performant animations that work accross different browsers and devices.",
   },
   {
-    id: "shopify",
-    title: "Shopify",
-    icon: shopifyIcon,
-    description:
-      "I am proficient in using Shopify to create online stores and sell products. With Shopify, I can manage the inventory, process payments, and customize the look and feel of the online store.",
-  },
-  {
     id: "framer",
     title: "Framer",
     icon: framerIcon,
