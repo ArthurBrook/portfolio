@@ -21,7 +21,7 @@ const GlobeComponent = () => {
   useEffect(() => {
     globeEl.current.controls().autoRotate = false;
     globeEl.current.controls().autoRotateSpeed = 0.6;
-    globeEl.current.pointOfView({ lat: 48.0, lng: 11.0, altitude: 3 }, 4000);
+    globeEl.current.pointOfView({ lat: 51.0, lng: 36.1, altitude: 3 }, 4000);
     globeEl.current.controls().enableZoom = false;
   }, []);
 
