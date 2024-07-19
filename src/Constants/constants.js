@@ -38,11 +38,10 @@ import {
   memojiHand,
   memojiHello,
   memojiOk,
+  webflowCertificate,
   htmlCertificate,
   cssCertificate,
   jsCertificate,
-  reactCertificate,
-  webflowCertificate,
 } from "../assets";
 
 const media = {
@@ -67,11 +66,10 @@ const media = {
   memojiHand,
   memojiHello,
   memojiOk,
+  webflowCertificate,
   htmlCertificate,
   cssCertificate,
   jsCertificate,
-  reactCertificate,
-  webflowCertificate,
 };
 
 const icons = {
@@ -99,60 +97,60 @@ const introduction = {
   ],
 };
 
-const journeys = [
-  {
-    title: "Web Foundations",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "5 Dec 2022 - 14 Dec 2022",
-    points: [
-      "Fundamentals of HTML",
-      "Fundamentals of CSS",
-      "Developing Websites Locally",
-      "Deploying Websites",
-    ],
-  },
-  {
-    title: "Improved Styling with CSS",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "15 Dec 2022 - 29 Dec 2022",
-    points: [
-      "Fundamentals of Web Design",
-      "Making a Website Responsive",
-      "CSS Transitions and Animations",
-    ],
-  },
-  {
-    title: "Building Interactive Websites",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "30 Dec 2022 -  9 Feb 2023",
-    points: [
-      "JavaScript Syntax",
-      "Building Interactive Websites",
-      "Making a Website Accessible",
-      "Git and Github",
-    ],
-  },
-  {
-    title: "Front-End Development",
-    company_name: "Codecademy",
-    icon: codecademy,
-    iconBg: "#204056",
-    date: "10 Feb - Present",
-    points: [
-      "JavaScript Syntax",
-      "JavaScript Testing",
-      "Async JavaScript",
-      "Web Apps",
-      "React Framework",
-    ],
-  },
-];
+// const journeys = [
+//   {
+//     title: "Web Foundations",
+//     company_name: "Go It",
+//     icon: codecademy,
+//     iconBg: "#204056",
+//     date: "5 Dec 2022 - 14 Dec 2022",
+//     points: [
+//       "Fundamentals of HTML",
+//       "Fundamentals of CSS",
+//       "Developing Websites Locally",
+//       "Deploying Websites",
+//     ],
+//   },
+//   {
+//     title: "Improved Styling with CSS",
+//     company_name: "Go It",
+//     icon: codecademy,
+//     iconBg: "#204056",
+//     date: "15 Dec 2022 - 29 Dec 2022",
+//     points: [
+//       "Fundamentals of Web Design",
+//       "Making a Website Responsive",
+//       "CSS Transitions and Animations",
+//     ],
+//   },
+//   {
+//     title: "Building Interactive Websites",
+//     company_name: "Go It",
+//     icon: codecademy,
+//     iconBg: "#204056",
+//     date: "30 Dec 2022 -  9 Feb 2023",
+//     points: [
+//       "JavaScript Syntax",
+//       "Building Interactive Websites",
+//       "Making a Website Accessible",
+//       "Git and Github",
+//     ],
+//   },
+//   {
+//     title: "Full Satack Development",
+//     company_name: "Go It",
+//     icon: codecademy,
+//     iconBg: "#204056",
+//     date: "10 Feb - Present",
+//     points: [
+//       "JavaScript Syntax",
+//       "JavaScript Testing",
+//       "Async JavaScript",
+//       "Web Apps",
+//       "React Framework",
+//     ],
+//   },
+// ];
 
 const projects = [
   {
@@ -180,13 +178,7 @@ const projects = [
 ];
 
 const certificates = {
-  image: [
-    htmlCertificate,
-    cssCertificate,
-    jsCertificate,
-    reactCertificate,
-    webflowCertificate,
-  ],
+  image: [webflowCertificate, htmlCertificate, cssCertificate, jsCertificate],
 };
 
 const memoji = {
@@ -296,7 +288,7 @@ const globeData = [...Array(N).keys()].map(() => ({
 export {
   media,
   introduction,
-  journeys,
+  // journeys,
   projects,
   certificates,
   memoji,
