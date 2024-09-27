@@ -74,7 +74,7 @@ Feel free to use this project as a template for your own portfolio. You can cust
 
 ## Credits
 
-This project was created by [Arthur Brook](https://www.github.com/arthurbrook) using the following technologies:
+This project was created by [Arthur Brook](https://www.github.com/arthurbrook) using the following technologies: 
 
 - [React](https://reactjs.org/)
 - [Framer Motion](https://www.framer.com/motion/)
